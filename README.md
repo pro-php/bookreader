@@ -1,5 +1,24 @@
 # CodeIgniter 4 Application Starter
 
+1. create db
+
+2. import
+database.sql
+
+3. copy env .env
+
+4. setup .env
+
+add url
+app.baseURL = 'https://your-domain/public/'
+
+setup db
+database.default.hostname = localhost
+database.default.database = database
+database.default.username = username
+database.default.username = username
+database.default.DBDriver = MySQLi
+
 ## What is CodeIgniter?
 
 CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
